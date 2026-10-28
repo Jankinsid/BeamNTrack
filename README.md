@@ -30,10 +30,7 @@ Everything stays on your PC. Data is sent only to `127.0.0.1` on UDP port `4444`
 
 ### 1. Install the mod
 
-1. Press `Win + R`, paste `%localappdata%\BeamNG\BeamNG.drive` and press Enter (or look in `Documents\BeamNG.drive`).
-2. Open your game version's folder (for example `current`), then the `mods` folder. Create it if it is missing.
-3. Copy `beamntrack_mod.zip` into `mods`. **Do not unzip it.**
-4. Restart BeamNG.
+1. Copy and paste the beamntrack_mod_.zip into your mods folder
 
 ### 2. Run the app
 
@@ -50,13 +47,6 @@ python app.py
 
 Start the app, load any map in BeamNG, spawn a car and drive. The status changes to **Connected** and your route appears.
 
-## Build the `.exe` yourself
-
-```
-python build_exe.py
-```
-
-This installs PyInstaller and Pillow, creates the icon and builds `BeamNTrack.exe` next to the script. Windows SmartScreen may warn about it, because it is not code-signed. Choose *More info*, then *Run anyway*.
 
 ## Maps
 
@@ -98,8 +88,3 @@ assets/                logo and icon
 
 Issues and pull requests are welcome. If something looks wrong on a particular map, please include the level name and a screenshot.
 
-## License
-
-Add a license of your choice (for example MIT) as `LICENSE`.
-
-BeamNTrack is an unofficial community project and is not affiliated with or endorsed by BeamNG GmbH. *BeamNG.drive* is a trademark of BeamNG GmbH.
